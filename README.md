@@ -29,7 +29,7 @@ ai-project-grp-3/
 
 
 # 1. Clone the repository
-git clone (**link of repo**)
+git clone (https://github.com/rajitgupta1267/ai-project-grp-3)
 cd ai-project-grp-3
 
 # 2. Create and activate a virtual environment
