@@ -59,4 +59,4 @@ python src/main.py
 
 
 # 8. AI- use Disclosure
-Gemini was used to fix error in src/main.py , given code to save .png image of plotted graph, and given the first draft of readme (edited further). All code and commands were reviewed, tested locally in a fresh virtual environment, and verified on GitHub by the team
+Gemini was used to fix error in src/main.py , given code to save .png image of plotted graph, and given the first draft of readme (edited further). All code and commands were reviewed, tested locally in a fresh virtual environment, and verified on GitHub by us.
