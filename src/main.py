@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_absolute_error, r2_score
+from sklearn.metrics import mean_absolute_error, r2_score, mean_squared_error
 
 # Ensure the outputs directory exists before saving files
 os.makedirs("outputs", exist_ok=True)
@@ -40,17 +40,20 @@ y_pred = lr.predict(X_test)
 
 mae = mean_absolute_error(y_test, y_pred)
 r2 = r2_score(y_test, y_pred)
+rmse = np.sqrt(mean_squared_error(y_test, y_pred)
 
 print("MAE:", round(mae, 3))
 print("R2 Score:", round(r2, 3))
+print("RMSE:", round(rmse, 3))
 
 # 6.Ploting
 plt.figure()
 plt.scatter(y_test, y_pred, color="blue", alpha=0.5)
-plt.plot([y.min(), y.max()], [y.min(), y.max()], color="red")  # Ideal 45-degree line
+plt.plot([y.min(), y.max()], [y.min(), y.max()], color="red", label="prediction")  # Ideal 45-degree line
 plt.xlabel("Actual SSPL (dB)")
 plt.ylabel("Predicted SSPL (dB)")
 plt.title("Actual vs Predicted Sound Pressure Level")
+plt.legend()
 
 # Save the graph
 plt.savefig("outputs/predicted_vs_actual.png")
