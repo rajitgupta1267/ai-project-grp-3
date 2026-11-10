@@ -6,12 +6,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error, r2_score, mean_squared_error
 
-# Ensure the outputs directory exists before saving files
+# To ensure outputs file exists before graph image
 os.makedirs("outputs", exist_ok=True)
 
 # 1. Getting the dataset from the data folder
 df = pd.read_csv("data/airfoil_self_noise.csv")
-
 df.columns = ['Frequency', 'Angle_of_attack', 'Chord_length', 'Velocity', 'Displacement_thickness', 'SSPL']
 
 print("Dataset shape:", df.shape)
@@ -31,7 +30,6 @@ X_train, X_test, y_train, y_test = train_test_split(
 #4. Fitting the model
 lr = LinearRegression()
 lr.fit(X_train, y_train)
-
 print("\nCoefficients:", np.round(lr.coef_, 3))
 print("Intercept:", round(lr.intercept_, 3))
 
