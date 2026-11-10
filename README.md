@@ -64,6 +64,8 @@ RMSE: 4.704
 
 Plot saved to outputs/predicted_vs_actual.png
 
+### Model Evaluation Plot
+![Actual vs Predicted SSPL](outputs/predicted_vs_actual.png)
 
 # 6. Slides
 
