@@ -48,7 +48,21 @@ pip install -r requirements.txt
 python src/main.py
 
 # 5. Expected Output
+Dataset shape: (1503, 6)
+   Frequency  Angle_of_attack  Chord_length  Velocity  Displacement_thickness     SSPL
+0        800              0.0        0.3048      71.3                0.002663  126.201
+1       1000              0.0        0.3048      71.3                0.002663  125.201
+2       1250              0.0        0.3048      71.3                0.002663  125.951
+3       1600              0.0        0.3048      71.3                0.002663  127.591
+4       2000              0.0        0.3048      71.3                0.002663  127.461
 
+Coefficients: [-1.0000e-03 -4.0600e-01 -3.4469e+01  9.8000e-02 -1.3946e+02]
+Intercept: 132.532
+MAE: 3.672
+R2 Score: 0.558
+RMSE: 4.704
+
+Plot saved to outputs/predicted_vs_actual.png
 
 
 # 6. Slides
