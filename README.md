@@ -68,7 +68,7 @@ Plot saved to outputs/predicted_vs_actual.png
 ![Actual vs Predicted SSPL](https://raw.githubusercontent.com/rajitgupta1267/ai-project-grp-3/main/outputs/predicted_vs_actual.png)
 
 # 6. Slides
-
+https://drive.google.com/file/d/1uVPamsV4kPhMIPnAS0wGpuCZpPFm1FNU/view?usp=drive_link
 
 
 # 7. Video
