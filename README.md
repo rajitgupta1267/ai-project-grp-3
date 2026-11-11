@@ -47,6 +47,8 @@ source venv/bin/activate
 
 # 3. Install required packages
 pip install -r requirements.txt
+#For Git Bash
+python -m pip install -r requirements.txt
 
 # 4. Run the command
 python src/main.py
