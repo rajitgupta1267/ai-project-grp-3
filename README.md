@@ -33,9 +33,13 @@ git clone (https://github.com/rajitgupta1267/ai-project-grp-3)
 cd ai-project-grp-3
 
 # 2. Create and activate a virtual environment
-# On Windows:
+# On Windows(PowerShell / Command Prompt):
 python -m venv venv
 venv\Scripts\activate
+
+#On Windows(Git Bash):
+python -m venv venv
+source venv/Scripts/activate
 
 # On macOS/Linux:
 python3 -m venv venv
