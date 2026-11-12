@@ -71,14 +71,15 @@ RMSE: 4.704
 Plot saved to outputs/predicted_vs_actual.png
 
 ### Model Evaluation Plot
-![Actual vs Predicted SSPL](https://raw.githubusercontent.com/rajitgupta1267/ai-project-grp-3/main/outputs/predicted_vs_actual.png)
+![Actual vs Predicted SSPL][https://raw.githubusercontent.com/rajitgupta1267/ai-project-grp-3/main/outputs/predicted_vs_actual.png]
+.[Expected output screenshot][https://drive.google.com/file/d/1GjnTZvJ3bjCNHvVxND1PT3JxG8_0xuhw/view?usp=drive_link]
 
 # 6. Slides
 https://drive.google.com/file/d/1uVPamsV4kPhMIPnAS0wGpuCZpPFm1FNU/view?usp=drive_link
 
 
 # 7. Video
-
+[Watch Our Project Video][https://drive.google.com/file/d/1fO5CeueXgI64sZH5G7DsMbfcwwzFdZ6_/view?usp=drive_link]
 
 # 8. AI- use Disclosure
 Gemini was used to fix error in src/main.py , given code to save .png image of plotted graph, and given the first draft of readme (edited further). All code and commands were reviewed, tested locally in a fresh virtual environment, and verified on GitHub by us.
